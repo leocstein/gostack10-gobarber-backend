@@ -37,6 +37,9 @@ routes.get('/appointments', AppointmentController.index);
 // Rota para criar um agendamento
 routes.post('/appointments', AppointmentController.store);
 
+// Rota para cancelar agendamento
+routes.delete('/appointments/:id', AppointmentController.delete);
+
 // Rota para listar agendamentos de um provider
 routes.get('/schedule', ScheduleController.index);
 
