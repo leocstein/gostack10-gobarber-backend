@@ -2,7 +2,7 @@
 
 export default {
   host: 'smtp.mailtrap.io',
-  port: 25,
+  port: 2525,
   secure: false,
   auth: {
     user: '3f280fedccebfb',
@@ -18,5 +18,5 @@ export default {
  * Mailgun
  * Sparkpost
  * Mandril (mailchimp)
- * Maltrap (ambiente de desenvolvimento)
+ * Mailtrap (ambiente de desenvolvimento)
  */
